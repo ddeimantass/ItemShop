@@ -1,4 +1,4 @@
-## Item shop
+## Item Shop
 
 ### Build and Run
 
@@ -24,7 +24,7 @@ bin/phpunit
 
 ### API
 
-#### reduce item quantity Endpoint
+#### Reduce Item Quantity Endpoint
 
 - Method: GET
 - URI: /api/item/{id}/reduce
