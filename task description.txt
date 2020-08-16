@@ -1,0 +1,12 @@
+Užduotis BE:
+
+Reikia susimuliuoti parduotuvę. Kiekvienoje parduotuvėje yra tam tikras prekių skaičius. Kiekviena prekė turi pradinę kainą X. Kiekvieną kartą mažinant prekės kiekį, kaina mažėja 10%.
+
+Reikalavimai:
+- Panaudoti symfony (symfony flex) karkasą.
+- Sugeneruoti pradinius duomenis su fixtures.
+- Panaudoti mysql duomenų bazę.
+- GIT
+
+
+Hint: Prekės sumažinimo funkcija, gali buti tiesiog paprastas mygtukas, kuris sumažintu prekės kiekį per 1 vienetą. FE daliai nebūtina skirti daug dėmesio. Gali jo būti labai minimaliai.
