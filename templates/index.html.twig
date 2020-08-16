@@ -18,7 +18,11 @@
                     <td>{{ item.name }}</td>
                     <td>{{ item.price }}</td>
                     <td>{{ item.quantity }}</td>
-                    <td><a id="{{ item.id }}" class="reduce btn btn-danger" href="#" >reduce</a></td>
+                    <td>
+                    {% if item.quantity > 0 %}
+                        <a id="{{ item.id }}" class="reduce btn btn-danger" href="#" >reduce</a>
+                    {% endif %}
+                    </td>
                 </tr>
             {% endfor %}
             </tbody>
